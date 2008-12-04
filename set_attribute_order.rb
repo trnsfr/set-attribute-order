@@ -7,7 +7,7 @@ module SetAttributeOrder
   module ClassMethods
     attr_reader :attribute_ordered_array
     
-    def attribute_order(*attrs)
+    def set_attribute_order(*attrs)
       @attribute_ordered_array = attrs
     end
   end
